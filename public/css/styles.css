@@ -1,0 +1,50 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    max-width: 650px;
+    margin: 0 auto;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+/* Forms */
+input {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888;
+    background:  #888;
+    color: white;
+    padding: 8px;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header nav a {
+    margin-right: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888;
+    border-top: 1px solid #eee;
+    margin-top: 16px;
+    padding: 8px 0;
+}
